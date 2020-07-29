@@ -10,6 +10,7 @@ public class ProductController {
 	
 	@GetMapping("/msg")
 	public String message() {
+		System.out.println("Hello Product Service ");
 		return "Welcome Spring Cloud Product Service";
 	}
 
